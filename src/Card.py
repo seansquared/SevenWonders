@@ -11,4 +11,4 @@ class Card(object):
         return
 
     def state(self):
-        return 
+        return   
