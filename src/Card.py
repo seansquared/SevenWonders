@@ -1,14 +1,16 @@
-import abc
 
 class Card(object):
-    __metaclass__ = abc.ABCMeta
 
-    @abc.abstractmethod
-    def name(self):
-        return
+    def __init__(self, name, cost, state):
+        name = name.self
+        cost = cost.self
+        state = state.self
 
-    def cost(self):
-        return
+    def name(self, name):
+        return name
 
-    def state(self):
-        return
+    def cost(self, cost):
+        return cost
+
+    def state(self, state):
+        return state
