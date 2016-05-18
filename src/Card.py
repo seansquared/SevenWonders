@@ -4,11 +4,11 @@ class Card(object):
     __metaclass__ = abc.ABCMeta
 
     @abc.abstractmethod
-    def type(self):
+    def name(self):
         return
 
     def cost(self):
         return
 
     def state(self):
-        return   
+        return
