@@ -1,4 +1,4 @@
-import Card
+from Card import *
 class CardList():
 
     resource_cards = []
@@ -27,6 +27,7 @@ class CardList():
     resource_cards.append(Card("Foundry", 2, 4, "One Gold", 0))
 
     manufactured_cards = []
+
     manufactured_cards.append(Card("Loom", 1, 3, "none", 0))
     manufactured_cards.append(Card("Glassworks", 1, 3, "none", 0))
     manufactured_cards.append(Card("Press", 1, 3, "none", 0))
@@ -41,6 +42,7 @@ class CardList():
     manufactured_cards.append(Card("Press", 2, 5, "none", 0))
 
     civilian_cards = []
+
     civilian_cards.append(Card("Baths", 1, 3, "One Stone", 0))
     civilian_cards.append(Card("Altar", 1, 3, "none", 0))
     civilian_cards.append(Card("Theater", 1, 3, "none", 0))
@@ -70,6 +72,7 @@ class CardList():
     civilian_cards.append(Card("Palace", 3, 7, "One Glass, One Papyrus, One Loom, One Clay, One Wood, One Ore, One Stone", 0))
 
     commerce_cards = []
+
     commerce_cards.append(Card("East Trading Post", 1, 3, "none", 0))
     commerce_cards.append(Card("West Trading Post", 1, 3, "none", 0))
     commerce_cards.append(Card("Marketplace", 1, 3, "none", 0))
@@ -99,6 +102,7 @@ class CardList():
     commerce_cards.append(Card("Arena", 3, 7, "One Ore, Two Stone", 0))
 
     military_cards = []
+
     military_cards.append(Card("Stockade", 1, 3, "One Wood", 0))
     military_cards.append(Card("Barracks", 1, 3, "One Ore", 0))
     military_cards.append(Card("Guard Tower", 1, 3, "One Clay", 0))
@@ -126,6 +130,7 @@ class CardList():
     military_cards.append(Card("Fortifications", 3, 7, "One Stone, Three Ore", 0))
 
     science_cards = []
+
     science_cards.append(Card("Apothecary", 1, 3, "One Loom", 0))
     science_cards.append(Card("Workshop", 1, 3, "One Glass", 0))
     science_cards.append(Card("Scriptorium", 1, 3, "One Papyrus", 0))
@@ -150,12 +155,6 @@ class CardList():
     science_cards.append(Card("Lodge", 3, 6, "Two Clay, One Loom, One Papyrus", 0))
     science_cards.append(Card("Observatory", 3, 7, "Two Ore, One Glass, One Loom", 0))
     science_cards.append(Card("Academy", 3, 7, "Three Stone, One Glass", 0))
-
-
-
-
-
-
 
 
 
