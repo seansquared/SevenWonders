@@ -103,6 +103,7 @@ class CardList():
 
     military_cards = []
 
+    
     military_cards.append(Card("Stockade", 1, 3, "One Wood", 0))
     military_cards.append(Card("Barracks", 1, 3, "One Ore", 0))
     military_cards.append(Card("Guard Tower", 1, 3, "One Clay", 0))
