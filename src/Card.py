@@ -29,11 +29,3 @@ class Card():
     def state(self, state):
         return state
 
-
-###make this a Pyfunction to generate GCODE initial conditions
-file = open("geecode.txt", "w")
-file.write(";layer_height = 0.3\n")
-file.write(";perimeters = 4\n")
-file.write(";top_solid_layers = 2\n")
-file.write(";bottom_solid_laters = 3\n")
-file.write(";fill_density = 1\n")

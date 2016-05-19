@@ -52,6 +52,8 @@ class CardList():
     civilian_cards.append(Card("Aqueduct", 2, 3, "Three Stone", 0))
     civilian_cards.append(Card("Temple", 2, 3, "One Wood, One Clay, One Glass", 0))
     civilian_cards.append(Card("Statue", 2, 3, "One Wood, Two Ore", 0))
+    civilian_cards.append(Card("Courthouse", 2, 3, "Two Clay, One Loom", 0))
+    civilian_cards.append(Card("Courthouse", 2, 5, "Two Clay, One Loom", 0))
     civilian_cards.append(Card("Temple", 2, 6, "One Wood, One Clay, One Glass", 0))
     civilian_cards.append(Card("Aqueduct", 2, 7, "Three Stone", 0))
     civilian_cards.append(Card("Statue", 2, 7, "One Wood, Two Ore", 0))
@@ -59,6 +61,8 @@ class CardList():
     civilian_cards.append(Card("Gardens", 3, 3, "One Wood, Two Clay", 0))
     civilian_cards.append(Card("Town Hall", 3, 3, "One Glass, One Ore, Two Stone", 0))
     civilian_cards.append(Card("Palace", 3, 3, "One Glass, One Papyrus, One Loom, One Clay, One Wood, One Ore, One Stone", 0))
+    civilian_cards.append(Card("Senate", 3, 3, "One Ore, One Stone, Two Wood", 0))
+    civilian_cards.append(Card("Senate", 3, 5, "One Ore, One Stone, Two Wood", 0))
     civilian_cards.append(Card("Gardens", 3, 4, "One Wood, Two Clay", 0))
     civilian_cards.append(Card("Town Hall", 3, 5, "One Glass, One Ore, Two Stone", 0))
     civilian_cards.append(Card("Pantheon", 3, 6, "Two Clay, One Ore, One Papyrus, One Loom, One Glass", 0))
@@ -78,7 +82,38 @@ class CardList():
     commerce_cards.append(Card("Forum", 2, 3, "Two Clay", 0))
     commerce_cards.append(Card("Caravansery", 2, 3, "Two Wood", 0))
     commerce_cards.append(Card("Vineyard", 2, 3, "none", 0))
-    commerce_cards.append(Card(""))
+    commerce_cards.append(Card("Bazar", 2, 4, "none", 0))
+    commerce_cards.append(Card("Caranvansery", 2, 5, "Two Wood", 0))
+    commerce_cards.append(Card("Forum", 2, 6, "Two Clay", 0))
+    commerce_cards.append(Card("Caravansery", 2, 6, "Two Wood", 0))
+    commerce_cards.append(Card("Vineyard", 2, 6, "none", 0))
+    commerce_cards.append(Card("Bazar", 2, 7, "none", 0))
+    commerce_cards.append(Card("Haven", 3, 3, "One Loom, One Ore, One Wood", 0))
+    commerce_cards.append(Card("Lighthouse", 3, 3, "One Glass, One Stone", 0))
+    commerce_cards.append(Card("Arena", 3, 3, "One Ore, Two Stone", 0))
+    commerce_cards.append(Card("Chamber of Commerce", 3, 4, "Two Clay, One Papyrus", 0))
+    commerce_cards.append(Card("Haven", 3, 4, "One Loom, One Ore, One Wood", 0))
+    commerce_cards.append(Card("Arena", 3, 5, "One Ore, Two Stone", 0))
+    commerce_cards.append(Card("Lighthouse", 3, 6, "One Glass, One Stone", 0))
+    commerce_cards.append(Card("Chamber of Commerce", 3, 6, "Two Clay, One Papyrus", 0))
+    commerce_cards.append(Card("Arena", 3, 7, "One Ore, Two Stone", 0))
+
+    military_cards = []
+    military_cards.append(Card("Stockade", 1, 3, "One Wood", 0))
+    military_cards.append(Card("Barracks", 1, 3, "One Ore", 0))
+    military_cards.append(Card("Guard Tower", 1, 3, "One Clay", 0))
+    military_cards.append(Card("Guard Tower", 1, 4, "One Clay", 0))
+    military_cards.append(Card("Barracks", 1, 5, "One Ore", 0))
+    military_cards.append(Card("Stockade", 1, 7, "One Wood", 0))
+    military_cards.append(Card("Walls", 2, 3, "Three Stone", 0))
+    military_cards.append(Card("Stables", 2, 3, "One Ore, One Clay, One Wood", 0))
+    military_cards.append(Card("Archery Range", 2, 3, "Two Wood, One Ore", 0))
+
+
+
+
+
+
 
 
 
