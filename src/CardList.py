@@ -108,6 +108,72 @@ class CardList():
     military_cards.append(Card("Walls", 2, 3, "Three Stone", 0))
     military_cards.append(Card("Stables", 2, 3, "One Ore, One Clay, One Wood", 0))
     military_cards.append(Card("Archery Range", 2, 3, "Two Wood, One Ore", 0))
+    military_cards.append(Card("Training Ground", 2, 4, "One Wood, Two Ore", 0))
+    military_cards.append(Card("Stables", 2, 5, "One Ore, One Clay, One Wood", 0))
+    military_cards.append(Card("Training Ground", 2, 6, "One Wood, Two Ore", 0))
+    military_cards.append(Card("Archery Range", 2, 6, "Two Wood, One Ore", 0))
+    military_cards.append(Card("Walls", 2, 7, "Three Stone", 0))
+    military_cards.append(Card("Training Ground", 2, 7, "One Wood, Two Ore", 0))
+    military_cards.append(Card("Fortifications", 3, 3, "One Stone, Three Ore", 0))
+    military_cards.append(Card("Arsenal", 3, 3, "One Ore, Two Wood, One Loom", 0))
+    military_cards.append(Card("Siege Workshop", 3, 3, "One Wood, Three Clay", 0))
+    military_cards.append(Card("Circus", 3, 4, "Three Stone, One Ore", 0))
+    military_cards.append(Card("Arsenal", 3, 4, "One Ore, Two Wood, One Loom", 0))
+    military_cards.append(Card("Circus", 3, 5, "Three Stone, One Ore", 0))
+    military_cards.append(Card("Siege Workshop", 3, 5, "One Wood, Three Clay", 0))
+    military_cards.append(Card("Circus", 3, 6, "Three Stone, One Ore", 0))
+    military_cards.append(Card("Arsenal", 3, 7, "One Ore, Two Wood, One Loom", 0))
+    military_cards.append(Card("Fortifications", 3, 7, "One Stone, Three Ore", 0))
+
+    science_cards = []
+    science_cards.append(Card("Apothecary", 1, 3, "One Loom", 0))
+    science_cards.append(Card("Workshop", 1, 3, "One Glass", 0))
+    science_cards.append(Card("Scriptorium", 1, 3, "One Papyrus", 0))
+    science_cards.append(Card("Scriptorium", 1, 4, "One Papyrus", 0))
+    science_cards.append(Card("Apothecary", 1, 5, "One Loom", 0))
+    science_cards.append(Card("Workshop", 1, 7, "One Glass", 0))
+    science_cards.append(Card("Dispensary", 2, 3, "Two Ore, One Glass", 0))
+    science_cards.append(Card("Laboratory", 2, 3, "Two Clay, One Papyrus", 0))
+    science_cards.append(Card("Library", 2, 3, "Two Stone, One Loom", 0))
+    science_cards.append(Card("School", 2, 3, "One Wood, One Papyrus", 0))
+    science_cards.append(Card("Dispensary", 2, 4, "Two Ore, One Glass", 0))
+    science_cards.append(Card("Laboratory", 2, 5, "Two Clay, One Papyrus", 0))
+    science_cards.append(Card("Library", 2, 6, "Two Stone, One Loom", 0))
+    science_cards.append(Card("School", 2, 7, "One Wood, One Papyrus", 0))
+    science_cards.append(Card("Lodge", 3, 3, "Two Clay, One Loom, One Papyrus", 0))
+    science_cards.append(Card("Observatory", 3, 3, "Two Ore, One Glass, One Loom", 0))
+    science_cards.append(Card("University", 3, 3, "Two Wood, One Papyrus, One Glass", 0))
+    science_cards.append(Card("Academy", 3, 3, "Three Stone, One Glass", 0))
+    science_cards.append(Card("Study", 3, 3, "One Wood, One Papyrus, One Loom", 0))
+    science_cards.append(Card("University", 3, 4, "Two Wood, One Papyrus, One Glass", 0))
+    science_cards.append(Card("Study", 3, 5, "One Wood, One Papyrus, One Loom", 0))
+    science_cards.append(Card("Lodge", 3, 6, "Two Clay, One Loom, One Papyrus", 0))
+    science_cards.append(Card("Observatory", 3, 7, "Two Ore, One Glass, One Loom", 0))
+    science_cards.append(Card("Academy", 3, 7, "Three Stone, One Glass", 0))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
