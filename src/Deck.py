@@ -48,13 +48,13 @@ class Deck:
     ay = shuffle(1, 3)
     handrwef = hand(ay, 7)
     for x in range(0,7):
-        del ay[x]
+        del ay[0]
     handrwef = hand(ay, 7)
     for x in range(0, 7):
-        del ay[x]
+        del ay[0]
     handrwef = hand(ay, 7)
     for x in range(0, 7):
-        del ay[x]
+        del ay[0]
     print(handrwef)
     print(ay)
 
