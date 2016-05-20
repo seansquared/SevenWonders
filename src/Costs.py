@@ -1,17 +1,17 @@
-class Effects:
+class Costs:
 
     def __init__(self, name, player):
         self.name = name
         self.player = player
 
-        if (name == "Lumber Yard"):
-            player.resource_count['wood'] += 1
-        if (name == "Stone Pit"):
-            player.resource_count['stone'] += 1
-        if (name == "Clay Pool"):
-            player.resource_count['clay'] += 1
-        if (name == "Ore Vein"):
-            player.resource_count['ore'] += 1
+        if (name == "Tree Farm"):
+            player.coin_count -= 1
+        if (name == "Excavation"):
+            player.coin_count -= 1
+        if (name == "Clay Pit"):
+            player.coin_count -= 1
+        if (name == "Timber Yard"):
+            player.coin_count -= 1
         """TODO Tree Farm, Excavation, Clay Pit, Timber Yard, Forest Cave, Mine"""
         if (name == "Saw Mill"):
             player.resource_count['wood'] += 2
