@@ -58,3 +58,4 @@ class Deck:
     print(handrwef)
     print(ay)
 
+    print(handrwef[0].name)

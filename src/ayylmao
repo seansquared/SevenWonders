@@ -1,0 +1,9 @@
+import Player
+import Effects
+
+class ayylmao():
+
+    Alexandria_God = Player
+    print(Alexandria_God.coin_count)
+    kek = Effects.Effects("Lumber Yard", Alexandria_God)
+    print (Alexandria_God.resource_count['wood'])
