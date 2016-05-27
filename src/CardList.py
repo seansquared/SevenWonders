@@ -1,4 +1,4 @@
-from Card import *
+import Card
 class CardList():
 
     resource_cards = []
