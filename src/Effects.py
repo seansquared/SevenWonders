@@ -94,6 +94,5 @@ class Effects:
             if ((player.resource_count['ore'] + player.resource_temp['ore'] >= 1) and (player.resource_count['stone'] + player.resource_temp['stone'] >= 1) and (player.resource_count['wood'] + player.resource_temp['wood'] >= 2)):
                 player.civilian_count += 6
 
-
         if (name == "Tavern"):
             player.coin_count += 5
